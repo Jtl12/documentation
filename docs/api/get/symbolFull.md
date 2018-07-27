@@ -10,7 +10,7 @@ Get pricing (ticker) data for various currency pairs (fiat, crypto, and tokens) 
 
 | Attributes |                              |        |
 |------------|------------------------------|--------|
-| Symbol     | Ticker symbol (currency pair | string |
+| Symbol     | Ticker symbol (currency pair)| string |
 
 ### Request
 ```
@@ -35,7 +35,7 @@ curl --include \
 | `ask`                                | number              |
 | `exchange`                           | string              |
 | `volume`                             | number              |
-| `timestamp                           | number              |
+| `timestamp`                          | number              |
 
 #### Full ticker Response
 
